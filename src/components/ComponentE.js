@@ -1,11 +1,8 @@
-import React,{useContext} from 'react';
-//import ComponentF from './ComponentF';
-import {userCotext , ChannelContext} from '../App'
+import React from 'react';
+import ComponentF from './ComponentF';
 function ComponentE(){
-const user = useContext(userCotext);
-const channel = useContext(ChannelContext);
-return(<div>
- {user} + {channel}
-</div>)
+return<div>
+  <ComponentF />
+</div>
 }
 export default ComponentE;

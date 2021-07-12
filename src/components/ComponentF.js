@@ -1,23 +1,5 @@
-import React from "react";
-import { userContext , ChannelContext} from "../App";
-function ComponentF() {
-  return (
-    <div>
-      <userContext.Consumer>
-        {(user) => {
-          return(
-            <ChannelContext.Consumer>
-               {
-                    channel  =>{
-                      return <div>user context value : {channel}</div>
-                    }
-               }
-            </ChannelContext.Consumer>
-          )
-           
-        }}
-      </userContext.Consumer>
-    </div>
-  );
+import React from 'react';
+function ComponentF(){
+return<div></div>
 }
 export default ComponentF;
