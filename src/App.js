@@ -3,7 +3,6 @@
 //import HookCounterThree from "./components/HookCounterThree";
 //import HookCounterTwo from "./components/HookCounterTwo";
 //import HookCounterOne from "./components/HookCounterOne";
-import DataFetching from "./components/DataFetching";
 import "./styles.css";
 
 export default function App() {
@@ -14,9 +13,6 @@ export default function App() {
       <HookCounterThree />
       <HookCounterFour />
       <HookCounterOne />*/}
-      <DataFetching />
     </div>
   );
 }
-
-
